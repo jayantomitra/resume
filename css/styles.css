@@ -1,0 +1,58 @@
+body{
+  width: 75%;
+  margin-left: 10%;
+}
+
+img {
+    border-radius: 500px;
+    width : 50%;
+    height : auto;
+  }
+
+.column1 {
+    float: left;
+    width: 50%;
+  }
+
+.column2 {
+    float: left;
+    width: 50%;
+  }
+
+  .row-MyIntro:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column-work {
+      float: left;
+      width: 50%;
+    }
+
+  .column-Education {
+      float: left;
+      width: 50%;
+    }
+
+.row-1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-skills:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .column-skills{
+        float: left;
+        width: 50%;
+      }
+
+    .column-ratings {
+        float: left;
+        width: 50%;
+      }
